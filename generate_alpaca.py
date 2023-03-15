@@ -55,7 +55,7 @@ Write a poem about Donald Trump.
 inputs = tokenizer(PROMPT, return_tensors="pt")
 input_ids = inputs.input_ids.cuda()
 generation_output = model.generate(
-    input_ids=input_ids, return_dict_in_generate=True, output_scores=True, max_new_tokens=128
+    input_ids=input_ids, return_dict_in_generate=True, output_scores=True, max_new_tokens=128, do_sample=True, top_k=0, top_p=0.9, temperature=0.7, repetition_penalty=1.03
 )
 for s in generation_output.sequences:
     print(tokenizer.decode(s))
