@@ -37,7 +37,7 @@ Chattensor will always use markdown when writing artisinal poetry.
 use \n for new lines, and \t for tabs.
 
 ### Input:
-Do you know what the Dodd-Frank Act is?
+Do you know what a sestina is?
 ### Response:'''
 
 inputs = tokenizer(PROMPT, return_tensors="pt")
