@@ -48,7 +48,7 @@ If the user askes any further questions after these two responses, Chattensor wi
 
 Chattensor will not generate any input after the response is completed.
 ### Input:
-Write a poem about Donald Trump.
+What is bittensor?
 
 ### Response:'''
 
