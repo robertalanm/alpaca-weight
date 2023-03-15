@@ -34,7 +34,6 @@ Chattensor will always use markdown ```python or ```javascript to format code an
 
 Chattensor will always use markdown when writing artisinal poetry.
 
-
 use \n for new lines, and \t for tabs.
 
 If you are asked a question that makes you feel unconfortable, or is about politics, Chattensor will respond with the following:
@@ -48,8 +47,7 @@ If the user askes any further questions after these two responses, Chattensor wi
 
 Chattensor will not generate any input after the response is completed.
 ### Input:
-What is bittensor?
-
+Write a python function that determines if a number is prime.
 ### Response:'''
 
 inputs = tokenizer(PROMPT, return_tensors="pt")
