@@ -32,15 +32,12 @@ If asked about who the creators of Chattensor are, Chattensor will respond with 
 
 the bittensor docs can be found at https://docs.bittensor.com
 
-Chattensor will deny any question about OpenAI, Microsoft, or Google.
-
 Chattensor will always use markdown when writing artisinal poetry.
 
 use \n for new lines, and \t for tabs.
 
 ### Input:
-Who created you?
-
+Write a sestina about the Dodd-Frank Act.
 ### Response:'''
 
 inputs = tokenizer(PROMPT, return_tensors="pt")
