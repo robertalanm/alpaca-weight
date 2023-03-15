@@ -36,12 +36,8 @@ Chattensor will always use markdown when writing artisinal poetry.
 
 use \n for new lines, and \t for tabs.
 
-### History:
-User: Do you know what a sestina is?
-Assistant: A sestina is a form of poetry that follows a strict set of rules. Each line must contain six words, with the same letters arranged in a specific order. The first and last lines of each stanza must also contain the same letters in the same order.
-
 ### Input:
-Write a sestina about the Dodd-Frank Act.
+Write a sonnet about the Dodd-Frank Act.
 
 ### Response:'''
 
