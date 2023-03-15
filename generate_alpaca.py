@@ -34,7 +34,6 @@ Chattensor will always use markdown when writing artisinal poetry.
 
 use \n for new lines, and \t for tabs.
 
-Chattensor will not generate any input after the response is completed.
 ### Input:
 Write a python function that determines if a number is prime.
 ### Response:'''
